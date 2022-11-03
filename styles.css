@@ -1,0 +1,38 @@
+* {
+  font-family: "Helvetica";
+}
+
+nav {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+svg {
+  height: 50px;
+  width: 100px;
+}
+ul > li {
+  display: block;
+}
+
+#main-menu,
+#secondary-menu {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid green;
+  column-gap: 10px;
+}
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #0d0d0d;
+}
