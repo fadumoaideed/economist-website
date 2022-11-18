@@ -3,7 +3,7 @@
 }
 
 nav {
-  border: 1px solid red;
+  outline: 1px solid red;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -22,7 +22,7 @@ ul > li {
   padding-left: 20px;
   display: flex;
   flex-direction: row;
-  border: 1px solid green;
+  outline: 1px solid green;
   column-gap: 10px;
 }
 div {
